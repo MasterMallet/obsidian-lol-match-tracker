@@ -1,0 +1,13 @@
+{
+	"id": "lol-match-tracker",
+	"name": "LoL Match Tracker",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Riot APIから試合データを取得してノートを自動生成",
+	"author": "Yut1n",
+	"authorUrl": "https://your-website.com",
+	"isDesktopOnly": false,
+	"fundingUrl": {
+		"Buy Me a Coffee": "https://buymeacoffee.com/yut1n"
+	}
+}
