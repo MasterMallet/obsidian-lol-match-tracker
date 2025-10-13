@@ -796,10 +796,21 @@ class LoLTrackerSettingTab extends PluginSettingTab {
 				}));
 
 		// 使い方セクション
-		containerEl.createEl('h3', {text: i18n.t('settings.usage_title')});
-		const usageEl = containerEl.createEl('div', {cls: 'setting-item-description'});
+		containerEl.createEl('h3', { text: i18n.t('settings.usage_title') });
+
+		// 説明コンテナ
+		const usageEl = containerEl.createEl('div', { cls: 'setting-item-description' });
+
+		// 翻訳からステップ配列を取得
 		const steps = i18n.tArray('settings.usage_steps');
-		const stepsHtml = steps.map((step, index) => `<li>${step}</li>`).join('');
-		usageEl.innerHTML = `<ol>${stepsHtml}</ol>`;
+
+		// <ol> 要素を作成して usageEl に追加
+		const olEl = usageEl.createEl('ol');
+
+		// 各ステップを <li> として追加
+		for (const step of steps) {
+			const liEl = olEl.createEl('li');
+			liEl.setText(step);
+		}
 	}
 }
