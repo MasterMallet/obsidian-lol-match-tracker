@@ -1,9 +1,9 @@
 {
 	"id": "lol-match-tracker",
 	"name": "LoL Match Tracker",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
-	"description": "Riot APIから試合データを取得してノートを自動生成",
+	"description": "Automatically fetch and analyze your League of Legends matches from Riot API. Create detailed match notes with stats, builds, and performance metrics. Track games with friends and add personalized feedback. Supports English, Korean, and Japanese.",
 	"author": "Yut1n",
 	"authorUrl": "https://your-website.com",
 	"isDesktopOnly": false,

@@ -1,6 +1,6 @@
 {
 	"name": "lol-match-tracker",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Riot APIから試合データを取得してObsidianノートを自動生成するプラグイン",
 	"main": "main.js",
 	"scripts": {
